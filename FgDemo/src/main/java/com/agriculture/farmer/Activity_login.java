@@ -160,6 +160,10 @@ public class Activity_login extends AppCompatActivity implements View.OnClickLis
 
         Toast.makeText(this, "註冊成功！", Toast.LENGTH_LONG).show();
         Intent it = new Intent(this, HomeActivity.class);
+        Bundle bd = new Bundle();
+        bd.putStringArrayList("memdata",mem_data);
+        it.putExtra("BUNDLE",bd);
+        startActivity(it);
         startActivity(it);
     }
     private void u_loaddata() {
