@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="@color/seashell">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/Spacing">
+        <com.agriculture.my_library.CircleImageView
+            android:id="@+id/panel_header"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textview01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview01"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/panel_agr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtitem01_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/panel_fish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txtitem01_2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textview02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview02"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/panel_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtview02_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/panel_pest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txtview02_2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+
+
+        <TextView
+            android:id="@+id/textview04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview04"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/panel_mask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="口罩資訊"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

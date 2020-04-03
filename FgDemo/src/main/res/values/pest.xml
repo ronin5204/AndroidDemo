@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Fgfarm02_02A_b001">清除☺</string>
+    <string name="Fgfarm02_02A_s001">請輸入農作物關鍵字</string>
+    <string name="loading">加載中...</string>
+    <string name="Fgfarm02_02A_spiner01">請選擇農作物</string>
+
+</resources>

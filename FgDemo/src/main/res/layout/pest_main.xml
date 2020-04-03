@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Teal">
+
+    <RelativeLayout
+        android:id="@+id/r001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:padding="20dp"
+        tools:context=".Fgfarm02_02A">
+
+        <!--        android:entries="@array/Fgfarm02_02A_sp001"-->
+
+        <EditText
+            android:id="@+id/peste001"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/White"
+            android:gravity="start"
+            android:hint="@string/Fgfarm02_02A_s001"
+            android:inputType="text"
+            android:scrollbarSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/pestb001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/peste001"
+            android:background="@drawable/radius"
+            android:singleLine="false"
+            android:text="@string/Fgfarm02_02A_b001"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pestsmall"
+            android:layout_width="50dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/pestb001"
+            android:layout_alignStart="@+id/pestb001"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-10dp"
+            android:background="@android:drawable/btn_minus" />
+
+        <Button
+            android:id="@+id/pestbig"
+            android:layout_width="50dp"
+            android:layout_height="29dp"
+            android:layout_alignTop="@+id/pestsmall"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/pestsmall"
+            android:background="@android:drawable/btn_plus" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/pest_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r001"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/White">
+
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/myname"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

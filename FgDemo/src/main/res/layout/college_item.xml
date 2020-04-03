@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://stackoverflow.max-everyday.com/2018/05/recylerview-cardview/-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_margin="8dp">
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="5dp"-->
+<!--            android:background="@color/green"/>-->
+        <TextView
+            android:id="@+id/txt01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="課程名稱:"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/coll_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="養蜂入門班(三)"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/txt01"/>
+        <TextView
+            android:id="@+id/txt02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="類型:"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/coll_name"/>
+        <TextView
+            android:id="@+id/coll_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="農業入門"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt02"/>
+
+        <TextView
+            android:id="@+id/coll_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt03"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="審核中"
+            android:textColor="@color/blue_grey_500"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="查看詳細資訊"
+            android:textColor="@color/blue_grey_500"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

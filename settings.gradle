@@ -1,0 +1,3 @@
+rootProject.name='Fgdemo'
+include 'circleindicator', 'FgDemo'
+include 'my_library'

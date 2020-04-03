@@ -1,0 +1,14 @@
+<resources>
+    <string name="textview01">即時資訊</string>
+    <string name="textview02">疫情資訊</string>
+    <string name="textView03">生活訊息</string>
+    <string name="textview04">特殊工具</string>
+    <string name="txtitem01_1">農業新聞</string>
+    <string name="txtitem01_2">漁業新聞</string>
+    <string name="txtview02_1">植物疫情</string>
+    <string name="txtview02_2">病害蟲防治</string>
+    <string name="txtview03_1">農民市集</string>
+    <string name="txtview03_2">服務品質認證休閒農場</string>
+    <string name="txtview04_1">農作物記錄統計</string>
+    <string name="txtview04_2">農作物成本統計</string>
+</resources>

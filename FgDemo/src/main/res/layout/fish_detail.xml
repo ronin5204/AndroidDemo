@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fish_t02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:gravity="center"
+        android:text="漁業新聞"
+        android:textColor="@color/White"
+        android:textSize="24sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/fish_t03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="@string/Fish_Title"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Silver"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/fish_t04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="@string/Fish_date"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txt_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Silver"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/fish_t05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="@string/Fish_content"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txt_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Silver"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

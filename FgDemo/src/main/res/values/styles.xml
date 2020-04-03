@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Dark Buttons -->
+    <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/blue_grey_500</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="AppNoActionBarTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+<!--        状态栏是否覆盖在ContentView上-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+<!--        设置系统状态栏是否为透明-->
+<!--        <item name="android:windowTranslucentStatus">false</item>-->
+<!--        设置系统状态栏颜色-->
+<!--        <item name="android:statusBarColor">@color/colorAccent</item>-->
+<!--        &lt;!&ndash; Android 6.0以上 状态栏字色和图标为浅黑色&ndash;&gt;-->
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+    </style>
+
+</resources>

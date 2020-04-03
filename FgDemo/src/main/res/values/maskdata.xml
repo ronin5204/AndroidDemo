@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="t001">縣市</string>
+    <string name="t002">區域</string>
+    <string name="t003">藥局名稱</string>
+    <string name="t004">成人口罩</string>
+    <string name="t005">幼兒口罩</string>
+    <string name="time">更新時間：</string>
+    <string name="b001">更新資料</string>
+</resources>

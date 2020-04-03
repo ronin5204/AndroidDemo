@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="標題:"
+            android:textSize="18sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/agr_t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Silver"
+            android:paddingBottom="5dp"
+            android:text="title"
+            android:textSize="20sp"
+            android:padding="3dp"/>
+        <Button
+            android:id="@+id/agr_b001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="點擊跳轉到具體新聞頁面"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="內容:"
+            android:textSize="18sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/agr_t002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Silver"
+            android:text="description"
+            android:textSize="18sp"
+            android:padding="3dp"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

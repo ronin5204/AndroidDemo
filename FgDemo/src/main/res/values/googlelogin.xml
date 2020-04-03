@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_text">Google 登錄</string>
+    <string name="signed_out">登出</string>
+    <string name="OptionalAction">加註</string>
+    <string name="disconnect">中斷連結</string>
+    <string name="signed_in_fmt">Google Account: %s</string>
+    <string name="password2">確認密碼</string>
+</resources>

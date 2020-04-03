@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agriculture.farmer">
+    <!-- 网络权限，加载网络网页需要联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 粗略定位权限，允许一个程序通过网络获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 精确定位权限，允许一个程序访问精确位置(GPS定位) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".Activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.home.HomeActivity"
+            android:theme="@style/AppNoActionBarTheme"/>
+        <activity android:name=".ui.home.AgrTranscationActivity"/>
+        <activity android:name=".ui.home.CollegeActivity"/>
+
+        <activity android:name=".ui.panel.AgrActivity"/>
+        <activity android:name=".ui.panel.AgrdetailActivity"/>
+        <activity android:name=".ui.panel.EpidemicActivity"/>
+        <activity android:name=".ui.panel.EpidetailActivity"/>
+        <activity android:name=".ui.panel.FishActivity"/>
+        <activity android:name=".ui.panel.FishdetailActivity"/>
+        <activity android:name=".ui.pest.Activity_pest"/>
+        <activity android:name=".ui.mask.MaskdataActivity"/>
+        <activity android:name=".WebView"/>
+
+<!--        <activity android:name=".Activity_webview" android:theme="@style/Theme.AppCompat.NoActionBar"/>-->
+    </application>
+
+</manifest>

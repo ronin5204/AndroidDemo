@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plant_name">關鍵字查詢：</string>
+    <string name="hint">請輸入地區或樣品關鍵字</string>
+    <string name="btn_Search">搜尋</string>
+    <string name="Pest_Title">標題</string>
+    <string name="Pest_date">發布日期</string>
+    <string name="Pest_city">發布縣市</string>
+    <string name="Pest_content">疫情內容</string>
+    <string name="Pest_advice">防治建議</string>
+</resources>
